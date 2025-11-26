@@ -29,7 +29,7 @@ const generadorDominios = ((pronombre, adjetivo, nombre, extension) => {
         } 
         if (!dominio) {
           for (let l = 0; extension.length > l; l++) {
-            console.log(`${pronombre[i]}${adjetivo[j]}${nombre[k]}.${extension[k]}`)
+            console.log(`${pronombre[i]}${adjetivo[j]}${nombre[k]}.${extension[l]}`)
           }
         }
       }
